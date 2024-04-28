@@ -1,0 +1,38 @@
+$nav-color: #2D898A;
+$lighter-gray: rgb(230, 230, 230);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+// navbar
+.bg{
+    background-color:  $nav-color;
+}
+
+// targets the text in the navbar
+.navbar-brand, .navbar-nav.ms-auto.mb-2.mb-lg-0 li a{
+    color: white;
+}
+
+// targets the first section of the webpage
+.container.mb-4.image-text{
+    background-color: $lighter-gray;
+}
+
+// targets the line breaker
+hr{
+    border: 0.15rem solid white;
+}
+
+
+//changing the background colour of the card
+.card-body{
+    background-color: lightgrey;
+}
